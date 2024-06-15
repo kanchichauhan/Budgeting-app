@@ -1,0 +1,94 @@
+header.App-header {
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  margin: 15px 0;
+  font-size: 32px;
+  font-weight: 700;
+  color: #2e7abb;
+  font-family: fantasy;
+}
+
+body {
+  background: #000;
+}
+.expense-wrapper, .total-budget {
+  color: #fff;
+}
+
+.expense-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 111px 0;
+}
+
+.total-budget-calc {
+  position: absolute;
+  top: 20px;
+  right: 0;
+  color:#fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.total-budget-calc > span {
+  padding: 2px;
+  font-family: fantasy;
+  font-size: 30px;
+}
+.label-name {
+  color: #d0d3b1;
+    font-size: 18px !important;
+    margin: 0 10px 0 53px;
+    font-weight: 800;
+    font-family: monospace !important;
+}
+.input-form form{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+div#expense-row {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  padding: 13px;
+  margin: 10px;
+}
+
+div.INCOME {
+  background: #4c825a;
+}
+
+.EXPENSE {
+  background: #874141;
+}
+.total-budget-calc > span#loss {color: red;}
+.total-budget-calc > span#profit {color: green;}
+button.delete-cta {
+  background: none;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  border: none;
+}
+button.delete-cta svg {
+  width: 100%;
+  height: 100%;
+  fill: #f30b08;
+}
+.input-form form button {
+  background: #197019;
+  color: #fff;
+  position: absolute;
+  top: 200%;
+  border: none;
+  padding: 15px 40px;
+  border-radius: 7px;
+  font-weight: 700;
+  font-size: 14px;
+  cursor: pointer;
+}
